@@ -25,10 +25,10 @@ Before I took on the challenge of programming the arm to run off a 6502 computer
 "Arduino code IDE 2.3.2".
 
 *PINOUT for Arduino:*
-A0 --> VRY
-A1 --> VRX
-D5 --> SERVO 1 signal
-D6 --> SERVO 2 signal
+A0 --> VRY,
+A1 --> VRX,
+D5 --> SERVO 1 signal,
+D6 --> SERVO 2 signal,
 D7 --> SWITCH (Currently not used)
 
 
@@ -45,6 +45,7 @@ cooler than the standard push button.
 
 *Circuit of analog to digital converter for joystick:*
 <img width="1055" alt="Screenshot 2025-01-03 at 3 02 36 PM" src="https://github.com/user-attachments/assets/d83d7c5a-f97c-4d06-9357-834897418aff" />
+(LED's in place of output)
 
 *Software:*
 Unfortunately, as of writing this, the software is not yet complete (neither is the circuit as I am still waiting for parts from Amazon). Once I finish off the software, 

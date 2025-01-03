@@ -1,6 +1,7 @@
 # 6502-Driven-Robotic-Arm
 Two-linkage robotic arm run by servos and a joystick input on a 6502-driven computer
 
+** Please note this is my first time using GitHub, so be kind :) **
 
 First a quick story...
 So this project is sort of a funny story. It began on a flight from Kelowna (YLW) to Toronto (YYZ). The airplane I was on did not have a movie-viewing device in 
@@ -14,4 +15,5 @@ before we landed. Now that you understand the conditions under which this idea w
 "conventional" options... It's simply because I came up with it all myself! Anyways, into the rest of the project...
 
 
-The kinematics were solved by the intersection of circles
+The kinematics were solved by the intersection of circles on a graphing software already downloaded on my Macbook (as online graphers like Desmos were inaccessible 
+during the flight) The file for this can be found under "systems of equations".

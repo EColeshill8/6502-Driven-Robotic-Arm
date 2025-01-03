@@ -47,6 +47,28 @@ cooler than the standard push button.
 <img width="1055" alt="Screenshot 2025-01-03 at 3 02 36 PM" src="https://github.com/user-attachments/assets/d83d7c5a-f97c-4d06-9357-834897418aff" />
 (LED's in place of output)
 
+*Current state of computer (done, but missing one potentiometer which is in the mail):*
+![IMG_8047](https://github.com/user-attachments/assets/d64020fe-bd1f-4cda-ad2c-b2703acbbe1f)
+
+
+*Another angle :)*
+![![IMG_8048](https://github.com/user-attachments/assets/9808ecf0-ec1e-4d73-a533-89d24a3a4d41)
+
+*Minus PCA9685*
+![IMG_8049](https://github.com/user-attachments/assets/b2bb4734-af11-45cd-a3ad-81e87b539d9e)
+
+
+*Minus potentiometers*
+![IMG_8049](https://github.com/user-attachments/assets/6a2a8f2d-9775-48dc-94ef-b508faee88ae)
+
+
+
+![IMG_8050](https://github.com/user-attachments/assets/dc8403b2-7d37-491c-bfff-b5c0c73d841f)
+
+
+*Computer before modification:*
+![IMG_7675](https://github.com/user-attachments/assets/49d44b68-5b99-4ae7-b0c1-277537fd347e)
+
 *Software:*
 Unfortunately, as of writing this, the software is not yet complete (neither is the circuit as I am still waiting for parts from Amazon). Once I finish off the software, 
 I will update this project and add it to this section. Until then enjoy the Arduino code and system of equations and I will get back to you. Until then, thank you for reading.

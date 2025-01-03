@@ -17,3 +17,6 @@ before we landed. Now that you understand the conditions under which this idea w
 
 The kinematics were solved by the intersection of circles on a graphing software already downloaded on my Macbook (as online graphers like Desmos were inaccessible 
 during the flight) The file for this can be found under "systems of equations".
+
+Before I took on the challenge of programming the arm to run off a 6502 computer, I made it work on Arduino. You can download the code for Arduino under 
+"Arduino code IDE 2.3.2".

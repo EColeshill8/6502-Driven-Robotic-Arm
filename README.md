@@ -15,8 +15,38 @@ before we landed. Now that you understand the conditions under which this idea w
 "conventional" options... It's simply because I came up with it all myself! Anyways, into the rest of the project...
 
 
+**SYSTEM OF EQUATIONS**
 The kinematics were solved by the intersection of circles on a graphing software already downloaded on my Macbook (as online graphers like Desmos were inaccessible 
 during the flight) The file for this can be found under "systems of equations".
 
+
+**ARDUINO**
 Before I took on the challenge of programming the arm to run off a 6502 computer, I made it work on Arduino. You can download the code for Arduino under 
 "Arduino code IDE 2.3.2".
+
+*PINOUT for Arduino:*
+A0 --> VRY
+A1 --> VRX
+D5 --> SERVO 1 signal
+D6 --> SERVO 2 signal
+D7 --> SWITCH (Currently not used)
+
+
+**6502 COMPUTER**
+*Circuit:*
+I started with Ben Eater's design with some very small modifications (to free up more ports on the IO bus). You can find his incredible work here https://eater.net/6502 
+and full credit to him for the design of the computer (you can find the schematic on his website). I built the computer a few years before this project (in grade 9) and 
+decided to repurpose it for this project. I hooked up a PCA9685 to the WD65C22 bus to run the PWM signal for the servos to the computer as it made more sense to me than 
+bit bashing directly from the computer and was more accurate than generating PWM from something like a 555 timer (which I did explore). The PCA9685 communicates over 
+I2C Which I felt a little more comfortable bit bashing with the computer (plus it looks cool to have more hardware. Next, I hooked up some LM393 op-amps to screen the 
+analog input into a digital input for the computer. Now I know what you are thinking. Yes, I could have used a button input instead of the joystick to have essentially 
+the same result, and much less hassle, so why did I do it? Because it's cool of course! Sure, buttons are way more practical, but the joystick is way more fun and far 
+cooler than the standard push button.
+
+*Circuit of analog to digital converter for joystick:*
+<img width="1055" alt="Screenshot 2025-01-03 at 3 02 36 PM" src="https://github.com/user-attachments/assets/d83d7c5a-f97c-4d06-9357-834897418aff" />
+
+*Software:*
+Unfortunately, as of writing this, the software is not yet complete (neither is the circuit as I am still waiting for parts from Amazon). Once I finish off the software, 
+I will update this project and add it to this section. Until then enjoy the Arduino code and system of equations and I will get back to you. Until then, thank you for reading.
+Jan 3, 2025

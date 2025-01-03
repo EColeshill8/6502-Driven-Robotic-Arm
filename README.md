@@ -61,7 +61,8 @@ cooler than the standard push button.
  
  
 *Minus potentiometers*
-![IMG_8049](https://github.com/user-attachments/assets/6a2a8f2d-9775-48dc-94ef-b508faee88ae)
+![IMG_8050](https://github.com/user-attachments/assets/696fb0ed-3183-493f-879c-08ee59bfd5eb)
+
  
  
 *Computer before modification:*
